@@ -2,7 +2,7 @@
 
 body {
   background-image: url("../images/headerback.jpg");
-  margin-bottom: 40;
+  margin-bottom: 40px;
 }
 html,
 h1,
@@ -23,22 +23,21 @@ a {
   justify-content: flex-end;
 }
 
-.description {
-  position: absolute;
-  top: 45%;
-  margin: auto;
-  padding: 2em;
-}
-.description h1 {
+.home h1 {
   color: #4285f4;
 }
-.description p {
+
+.home h4 {
+  color: #000;
+  font-weight: bold;
+}
+
+.home p {
   color: #000;
   font-size: 20px;
-  width: 50%;
   line-height: 1.5;
 }
-.description button {
+.home button {
   border: 1px solid #4285f4;
   background: #4285f4;
   color: #fff;
