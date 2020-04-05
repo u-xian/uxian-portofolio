@@ -7,7 +7,7 @@ const About = () => {
         <div className="col-sm-6 feature_item">
           <div className="row">
             <div className="col-sm-4">
-              <img src="images/mypic1.JPG" className="img-fluid" alt="" />
+              <img src="/images/mypic1.JPG" className="img-fluid" alt="" />
             </div>
           </div>
           <div className="row">
