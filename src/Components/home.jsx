@@ -4,17 +4,16 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="description">
-      <h1>
-        Full Stack Developer
-        <p>
-          Offering creative Backend and Frontend Web/Mobile solutions to
-          business and technology challenges and provide digital marketing
-          services as well.
-        </p>
-        <Link className="btn btn-primary btn-lg" to="/about">
-          See more
-        </Link>
-      </h1>
+      <h1>Full Stack Developer</h1>
+      <p>
+        Offering creative Backend and Frontend Web/Mobile solutions to business
+        and technology challenges and provide digital marketing services as
+        well.
+      </p>
+      <Link className="btn btn-primary btn-lg" to="/about">
+        See more
+      </Link>
+
       <br />
       <h1 className="text-center">Portofolio</h1>
       <h6 className="text-center">
