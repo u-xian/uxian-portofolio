@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className="container">
       <h1>Services</h1>
-      <div className="row">
+      <div className="row home">
         <div className="col-md-4 col-lg-4 col-sm-12">
           <div className="feature_item">
             <img src="images/s1.png" alt="" />

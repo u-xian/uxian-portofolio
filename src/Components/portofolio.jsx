@@ -4,7 +4,7 @@ const Portofolio = () => {
   return (
     <div className="container">
       <h1>Portofolio</h1>
-      <div className="row">
+      <div className="row home">
         <div className="col-sm">
           <div className="feature_item">
             <h4>
@@ -42,7 +42,7 @@ const Portofolio = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row home">
         <div className="col-sm">
           <div className="feature_item">
             <h4>Mobile Financial System – Equity Bank Card</h4>A web application

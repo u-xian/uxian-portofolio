@@ -7,63 +7,60 @@ const About = () => {
         <div className="col-sm-6 feature_item">
           <div className="row">
             <div className="col-sm-4">
-              <img src="/images/mypic1.JPG" className="img-fluid" alt="" />
+              <img src={"/images/mypic3.png"} className="img-fluid" alt="" />
             </div>
           </div>
           <div className="row">
             <div className="col-sm">
               <h3>Christian Uwakristu</h3>
               <br />
+              <h4>About</h4>
               <p>
-                <h4>About</h4>I am Full Stack Developer graduated of Computer
-                Engineering Bachelor Degree with 15 years as Data
-                Engineer/Software Developer experience in Bank and
-                Telecommunication companies , offering creative solutions to
-                business and technology challenges. I hold a also a Profession
-                certificate of Digital Marketing.
+                I am Full Stack Developer graduated of Computer Engineering
+                Bachelor Degree with 15 years as Data Engineer/Software
+                Developer experience in Bank and Telecommunication companies ,
+                offering creative solutions to business and technology
+                challenges. I hold a also a Profession certificate of Digital
+                Marketing.
               </p>
               <br />
-              <p>
-                <h4>Work Experience</h4>
-                <ul>
-                  <li>
-                    Lead Appllication Developer at WIPRO (Airtel Telco) : 2018 -
-                    Now
-                  </li>
-                  <li>
-                    Billing Specialist Controller and Software Architect at Tigo
-                    Telco (Millicom company) : 2011 -2018
-                  </li>
-                  <li>
-                    Analyst Software Developer at Banque Populaire du Rwanda :
-                    2007 - 2011
-                  </li>
-                  <li>Analyst Software Developer at AD Finance : 2005-2007</li>
-                </ul>
-              </p>
-              <p>
-                <h4>Certifications</h4>
-                <ul>
-                  <li>Master ReactJs (Codewithmosh.com)</li>
-                  <li>
-                    MongoDB for Javascript Developers and Aggregation Framework
-                    (MongoDB University.com)
-                  </li>
-                  <li>Become a Full-stack .NET Developer (pluralsight.com)</li>
-                  <li>Digital Marketing Nanodegree (udacity.com)</li>
-                  <li>
-                    Certified Practitioner of Telecommunications Revenue
-                    Assurance (grapa.com)
-                  </li>
-                </ul>
-              </p>
+              <h4>Work Experience</h4>
+              <ul>
+                <li>
+                  Lead Appllication Developer at WIPRO (Airtel Telco) : 2018 -
+                  Now
+                </li>
+                <li>
+                  Billing Specialist Controller and Software Architect at Tigo
+                  Telco (Millicom company) : 2011 -2018
+                </li>
+                <li>
+                  Analyst Software Developer at Banque Populaire du Rwanda :
+                  2007 - 2011
+                </li>
+                <li>Analyst Software Developer at AD Finance : 2005-2007</li>
+              </ul>
+              <h4>Certifications</h4>
+              <ul>
+                <li>Master ReactJs (Codewithmosh.com)</li>
+                <li>
+                  MongoDB for Javascript Developers and Aggregation Framework
+                  (MongoDB University.com)
+                </li>
+                <li>Become a Full-stack .NET Developer (pluralsight.com)</li>
+                <li>Digital Marketing Nanodegree (udacity.com)</li>
+                <li>
+                  Certified Practitioner of Telecommunications Revenue Assurance
+                  (grapa.com)
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div className="col-sm-6">
           <h4>Skills</h4>
-          <table class="table table-bordered table-striped table-dark">
-            <thead class="thead-dark">
+          <table className="table table-bordered table-striped table-dark">
+            <thead className="thead-dark">
               <tr>
                 <th scope="col">Backend</th>
                 <th scope="col">Frontend</th>

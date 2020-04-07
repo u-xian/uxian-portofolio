@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div class="contact-form" id="contact">
-      <div class="container">
+    <div className="contact-form" id="contact">
+      <div className="container">
         <h1>Hire Me</h1>
         <form>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <div className="feature_item">
                 <h2>Contact</h2>
                 <address>
@@ -54,29 +54,29 @@ const Contact = () => {
                 </address>
               </div>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 right">
-              <div class="form-group">
+            <div className="col-lg-8 col-md-8 col-sm-12 right">
+              <div className="form-group">
                 <input
                   type="text"
-                  class="form-control form-control-lg"
+                  className="form-control form-control-lg"
                   placeholder="Your Name"
                   name=""
                 />
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <input
                   type="email"
-                  class="form-control form-control-lg"
+                  className="form-control form-control-lg"
                   placeholder="YourEmail@email.com"
                   name="email"
                 />
               </div>
-              <div class="form-group">
-                <textarea class="form-control form-control-lg"></textarea>
+              <div className="form-group">
+                <textarea className="form-control form-control-lg"></textarea>
               </div>
               <input
                 type="submit"
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 value="Send"
                 name=""
               />
