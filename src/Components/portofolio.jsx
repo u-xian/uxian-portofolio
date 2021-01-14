@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Portofolio = () => {
   return (
@@ -67,8 +68,24 @@ const Portofolio = () => {
           <div className="feature_item">
             <h4>EquickShop</h4>
             Web Application that manages Stock and purchase of goods as POS.
-            Built in Javascript with NodeJS and POstgresql as backend and
-            ReactJS and Frontend.
+            Built in Javascript with NodeJS and Postgresql as backend and
+            ReactJS and Frontend. <br /> Use this demo
+            <br />
+            <Link to="https://eretailshopfrontend.herokuapp.com">
+              https://eretailshopfrontend.herokuapp.com
+            </Link>
+            <br />
+            Below are the users and password to login:
+            <ul>
+              <ol>
+                Username : admin
+                <br /> password : 123456
+              </ol>
+              <ol>
+                Username : cashier <br />
+                password : 123456
+              </ol>
+            </ul>
           </div>
         </div>
       </div>
