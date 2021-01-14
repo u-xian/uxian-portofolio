@@ -21,20 +21,17 @@ const Home = () => {
           <div className="row">
             <div className="col-sm">
               <div className="feature_item">
-                <h4>
-                  ATA ( Agent to Agent Transfer Balance on Mobile Financial
-                  Services )
-                </h4>
-                The application enables the agents on two differents Mobile
-                Financial Services to share their balance between the two
-                platforms and provide quick services to the customers.
+                <h3 className="headerBold">eRetailShop</h3>A responsive Web
+                Application that manages Stock and POS to sell goods.
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-sm">
               <div className="feature_item">
-                <h4>PAM ( Purchase Airtime with Mobile Financial Services )</h4>
+                <h3 className="headerBold">
+                  PAM ( Purchase Airtime with Mobile Financial Services )
+                </h3>
                 The application enables the dealers to purchase Airtime on
                 Electronic Recharge platform with balance on Mobile Financial
                 Service wallet.
@@ -44,7 +41,7 @@ const Home = () => {
           <div className="row">
             <div className="col-sm">
               <div className="feature_item">
-                <h4>ScratchCards Management System</h4>
+                <h3 className="headerBold">ScratchCards Management System</h3>
                 Web Application that manages Stock and purchase of Prepaid
                 Voucher Top-up Cards in all Shops with dealers and activation on
                 Voucher system.
